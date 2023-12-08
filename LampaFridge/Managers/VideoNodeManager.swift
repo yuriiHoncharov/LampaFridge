@@ -217,55 +217,55 @@ struct VideoNodeManager {
 
     private mutating func createVideoMaterial(for video: EventVideos, fallbackImage: UIImage? = nil) -> SKScene {
         guard let videoURL = Bundle.main.url(forResource: video.videoName, withExtension: nil) else {
-            print("Video resource not found.")
+            return createFallbackScene(fallbackImage: fallbackImage)
+        }
+        return createVideoScene(videoURL: videoURL, video: video)
+    }
 
-            let screenSize = UIScreen.main.bounds.size
+    private func createFallbackScene(fallbackImage: UIImage?) -> SKScene {
+        let screenSize = UIScreen.main.bounds.size
 
-            if let fallbackImage = fallbackImage {
-                let fallbackScene = SKScene(size: CGSize(width: 2000, height: 2000))
-                fallbackScene.scaleMode = .aspectFit
+        if let fallbackImage = fallbackImage {
+            let fallbackScene = SKScene(size: CGSize(width: screenSize.width * 4.5, height: screenSize.height * 4))
+            fallbackScene.backgroundColor = .baseWhite
+            let imageNode = createImageNode(with: fallbackImage, scene: fallbackScene)
 
-                let imageNode = SKSpriteNode(texture: SKTexture(image: fallbackImage))
-                imageNode.yScale = -1
-                imageNode.position = CGPoint(x: fallbackScene.size.width/2, y: fallbackScene.size.height/2)
-
-                fallbackScene.addChild(imageNode)
-                return fallbackScene
-            }
-            return SKScene(size: screenSize)
+            fallbackScene.addChild(imageNode)
+            return fallbackScene
         }
 
+        return SKScene(size: screenSize)
+    }
+
+    private func createImageNode(with image: UIImage, scene: SKScene) -> SKSpriteNode {
+        let imageNode = SKSpriteNode(texture: SKTexture(image: image))
+        imageNode.yScale = -1
+        imageNode.position = CGPoint(x: scene.size.width / 2, y: scene.size.height / 2)
+        return imageNode
+    }
+
+    private mutating func createVideoScene(videoURL: URL, video: EventVideos) -> SKScene {
         let size = CGSize(width: 1920, height: 1080)
         let resolution = resolutionForLocalVideo(url: videoURL)
         let videoScene = SKScene(size: resolution ?? size)
         videoScene.scaleMode = .aspectFit
 
+        let videoNode = createVideoNode(with: videoURL, scene: videoScene, video: video)
+
+        videoScene.addChild(videoNode)
+        return videoScene
+    }
+
+    private mutating func createVideoNode(with videoURL: URL, scene: SKScene, video: EventVideos) -> SKVideoNode {
         let player = AVPlayer(url: videoURL)
         let videoNode = SKVideoNode(avPlayer: player)
+        videoNode.yScale = -1
+        videoNode.position = CGPoint(x: scene.size.width / 2, y: scene.size.height / 2)
+
         videoPlayers[video.rawValue] = player
 
-        videoNode.yScale = -1
-        videoNode.position = CGPoint(x: videoScene.size.width/2, y: videoScene.size.height/2)
-        videoScene.addChild(videoNode)
-        return videoScene
+        return videoNode
     }
-
-    private mutating func createVideoScene(with videoURL: URL) -> SKScene {
-        let size = CGSize(width: 1920, height: 1080)
-        let resolution = resolutionForLocalVideo(url: videoURL)
-        let videoScene = SKScene(size: resolution ?? size)
-        videoScene.scaleMode = .aspectFit
-
-        let player = AVPlayer(url: videoURL)
-        let videoNode = SKVideoNode(avPlayer: player)
-        videoPlayers[EventVideos.twentyFifthImage.rawValue] = player
-
-        videoNode.yScale = -1
-        videoNode.position = CGPoint(x: videoScene.size.width/2, y: videoScene.size.height/2)
-        videoScene.addChild(videoNode)
-        return videoScene
-    }
-
 
     private mutating func addThumbnail() -> UIColor {
         let thumb = UIImage(systemName: BaseConstants.playCircle)

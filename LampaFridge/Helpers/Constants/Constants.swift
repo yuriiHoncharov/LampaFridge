@@ -23,8 +23,9 @@ struct StringConstants {
 struct AssetsConstants {
     static let lampaLogo = UIImage(named: "lampaLogo")
     static let yellowColor = UIColor(named: "BaseYellow")
+    static let whiteColor = UIColor(named: "BaseWhite")
 }
 
 struct VideoConstants {
-static let defaultVideoName = "Default.mp4"
+static let defaultVideoName = "Default"
 }
