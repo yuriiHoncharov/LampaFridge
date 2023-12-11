@@ -555,7 +555,7 @@
 				DEVELOPMENT_TEAM = W73G89PCSD;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LampaFridge/Resources/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Lampa Fridge";
+				INFOPLIST_KEY_CFBundleDisplayName = "Fridge Photos";
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -586,7 +586,7 @@
 				DEVELOPMENT_TEAM = W73G89PCSD;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LampaFridge/Resources/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Lampa Fridge";
+				INFOPLIST_KEY_CFBundleDisplayName = "Fridge Photos";
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;

@@ -27,5 +27,6 @@ struct AssetsConstants {
 }
 
 struct VideoConstants {
-static let defaultVideoName = "Default"
+    static let defaultVideoName = "Default"
+    static let trackingImages = "TrackingImages"
 }

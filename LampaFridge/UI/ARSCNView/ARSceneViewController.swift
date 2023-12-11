@@ -48,7 +48,7 @@ class ARSceneViewController: UIViewController {
 
     private func configureSession() {
         let configuration = ARImageTrackingConfiguration()
-        if let targetImages = ARReferenceImage.referenceImages(inGroupNamed: "Targets", bundle: .main) {
+        if let targetImages = ARReferenceImage.referenceImages(inGroupNamed: VideoConstants.trackingImages, bundle: .main) {
             configuration.trackingImages = targetImages
             configuration.maximumNumberOfTrackedImages = 10
 
