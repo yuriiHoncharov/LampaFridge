@@ -43,7 +43,6 @@ class ARSceneViewController: UIViewController {
 
     private func setupScene() {
         sceneView.delegate = self
-        sceneView.showsStatistics = true
         sceneView.autoenablesDefaultLighting = true
     }
 

@@ -45,7 +45,7 @@
 		1FB141B92B21E5DE0018E2A4 /* VIDEO22.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1FB141B72B21E5DE0018E2A4 /* VIDEO22.mp4 */; };
 		1FB141BF2B21EDE00018E2A4 /* VIDEO27.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1FB141BB2B21EDE00018E2A4 /* VIDEO27.mp4 */; };
 		1FB141C02B21EDE00018E2A4 /* VIDEO26.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1FB141BC2B21EDE00018E2A4 /* VIDEO26.mp4 */; };
-		1FB141C12B21EDE00018E2A4 /*  VIDEO0.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1FB141BD2B21EDE00018E2A4 /*  VIDEO0.mp4 */; };
+		1FB141C12B21EDE00018E2A4 /* VIDEO0.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1FB141BD2B21EDE00018E2A4 /* VIDEO0.mp4 */; };
 		1FB141C22B21EDE00018E2A4 /* VIDEO25.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1FB141BE2B21EDE00018E2A4 /* VIDEO25.mp4 */; };
 		1FB141C42B21F01B0018E2A4 /* VIDEO3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1FB141C32B21F01B0018E2A4 /* VIDEO3.mp4 */; };
 		1FB141C62B21FF380018E2A4 /* VIDEO1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1FB141C52B21FF380018E2A4 /* VIDEO1.mp4 */; };
@@ -93,7 +93,7 @@
 		1FB141B72B21E5DE0018E2A4 /* VIDEO22.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VIDEO22.mp4; sourceTree = "<group>"; };
 		1FB141BB2B21EDE00018E2A4 /* VIDEO27.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VIDEO27.mp4; sourceTree = "<group>"; };
 		1FB141BC2B21EDE00018E2A4 /* VIDEO26.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VIDEO26.mp4; sourceTree = "<group>"; };
-		1FB141BD2B21EDE00018E2A4 /*  VIDEO0.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = " VIDEO0.mp4"; sourceTree = "<group>"; };
+		1FB141BD2B21EDE00018E2A4 /* VIDEO0.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VIDEO0.mp4; sourceTree = "<group>"; };
 		1FB141BE2B21EDE00018E2A4 /* VIDEO25.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VIDEO25.mp4; sourceTree = "<group>"; };
 		1FB141C32B21F01B0018E2A4 /* VIDEO3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VIDEO3.mp4; sourceTree = "<group>"; };
 		1FB141C52B21FF380018E2A4 /* VIDEO1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VIDEO1.mp4; sourceTree = "<group>"; };
@@ -234,7 +234,7 @@
 		1F345FC92B1E28CC0027A891 /* Video */ = {
 			isa = PBXGroup;
 			children = (
-				1FB141BD2B21EDE00018E2A4 /*  VIDEO0.mp4 */,
+				1FB141BD2B21EDE00018E2A4 /* VIDEO0.mp4 */,
 				1FB141C52B21FF380018E2A4 /* VIDEO1.mp4 */,
 				1F64D3802B1F453800EC9B40 /* VIDEO2.mp4 */,
 				1FB141C32B21F01B0018E2A4 /* VIDEO3.mp4 */,
@@ -368,7 +368,7 @@
 				1F64D3962B1F648900EC9B40 /* VIDEO13.mp4 in Resources */,
 				1FB141C02B21EDE00018E2A4 /* VIDEO26.mp4 in Resources */,
 				1FB141C62B21FF380018E2A4 /* VIDEO1.mp4 in Resources */,
-				1FB141C12B21EDE00018E2A4 /*  VIDEO0.mp4 in Resources */,
+				1FB141C12B21EDE00018E2A4 /* VIDEO0.mp4 in Resources */,
 				1F64D3852B1F454200EC9B40 /* VIDEO5.mp4 in Resources */,
 				1F64D3A42B21C1A500EC9B40 /* VIDEO19.mp4 in Resources */,
 				1F345FD92B1E29870027A891 /* Localizable.strings in Resources */,

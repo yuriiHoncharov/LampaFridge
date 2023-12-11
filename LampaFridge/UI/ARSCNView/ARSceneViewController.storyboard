@@ -18,16 +18,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ulf-Ev-hWb">
-                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <rect key="frame" x="0.0" y="59" width="393" height="793"/>
                                 <color key="backgroundColor" name="BaseWhite"/>
                             </arscnView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" name="BaseGray"/>
                         <constraints>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="Ulf-Ev-hWb" secondAttribute="bottom" id="aZX-d7-uem"/>
                             <constraint firstAttribute="trailing" secondItem="Ulf-Ev-hWb" secondAttribute="trailing" id="k11-Lh-xpe"/>
                             <constraint firstItem="Ulf-Ev-hWb" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="mIR-UR-Ws4"/>
+                            <constraint firstAttribute="bottom" secondItem="Ulf-Ev-hWb" secondAttribute="bottom" id="wnZ-Q5-COW"/>
                             <constraint firstItem="Ulf-Ev-hWb" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" id="yAg-0p-sEi"/>
                         </constraints>
                     </view>
