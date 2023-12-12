@@ -24,6 +24,7 @@
 		1F345FD12B1E28D40027A891 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F345FD02B1E28D40027A891 /* art.scnassets */; };
 		1F345FD42B1E28E20027A891 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F345FD32B1E28E20027A891 /* Colors.xcassets */; };
 		1F345FD92B1E29870027A891 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F345FD72B1E29870027A891 /* Localizable.strings */; };
+		1F5014842B28C9B40054F67E /* VIDEO29.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1F5014832B28C9B40054F67E /* VIDEO29.mp4 */; };
 		1F64D3832B1F454200EC9B40 /* VIDEO16.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1F64D3822B1F453800EC9B40 /* VIDEO16.mp4 */; };
 		1F64D3842B1F454200EC9B40 /* VIDEO2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1F64D3802B1F453800EC9B40 /* VIDEO2.mp4 */; };
 		1F64D3852B1F454200EC9B40 /* VIDEO5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1F64D3812B1F453800EC9B40 /* VIDEO5.mp4 */; };
@@ -72,6 +73,7 @@
 		1F345FD02B1E28D40027A891 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		1F345FD32B1E28E20027A891 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		1F345FD82B1E29870027A891 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1F5014832B28C9B40054F67E /* VIDEO29.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VIDEO29.mp4; sourceTree = "<group>"; };
 		1F64D37F2B1F408900EC9B40 /* VIDEO4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VIDEO4.mp4; sourceTree = "<group>"; };
 		1F64D3802B1F453800EC9B40 /* VIDEO2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VIDEO2.mp4; sourceTree = "<group>"; };
 		1F64D3812B1F453800EC9B40 /* VIDEO5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VIDEO5.mp4; sourceTree = "<group>"; };
@@ -262,6 +264,7 @@
 				1FB141BC2B21EDE00018E2A4 /* VIDEO26.mp4 */,
 				1FB141BB2B21EDE00018E2A4 /* VIDEO27.mp4 */,
 				1F345FCA2B1E28CC0027A891 /* VIDEO28.mp4 */,
+				1F5014832B28C9B40054F67E /* VIDEO29.mp4 */,
 			);
 			path = Video;
 			sourceTree = "<group>";
@@ -356,6 +359,7 @@
 				1F345FD12B1E28D40027A891 /* art.scnassets in Resources */,
 				1F64D38C2B1F4AC700EC9B40 /* VIDEO20.mp4 in Resources */,
 				1F64D38B2B1F4AC700EC9B40 /* VIDEO12.mp4 in Resources */,
+				1F5014842B28C9B40054F67E /* VIDEO29.mp4 in Resources */,
 				1F345FB42B1E28830027A891 /* ARSceneViewController.storyboard in Resources */,
 				1F64D39D2B1F73A300EC9B40 /* VIDEO14.mp4 in Resources */,
 				1F64D3922B1F5E6E00EC9B40 /* VIDEO11.mp4 in Resources */,
