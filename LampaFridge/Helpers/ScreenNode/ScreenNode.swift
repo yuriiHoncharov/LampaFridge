@@ -15,7 +15,7 @@ protocol VideoPlayerProtocol {
 
 class SingleScreenPlayer {
     let idleScene: SCNScene? = {
-        return SCNScene(named: "art.scnassets/player.scn")
+        return SCNScene(named: BaseConstants.scene)
     }()
 }
 
@@ -24,20 +24,13 @@ extension SingleScreenPlayer: VideoPlayerProtocol {
     func startPlayer() -> SCNNode? {
         let player: SCNNode? = {
             guard let idleScene else { return nil }
-            guard let playerNode = idleScene.rootNode.childNode(withName: "plane", recursively: true) else { return nil }
+            guard let playerNode = idleScene.rootNode.childNode(withName: VideoConstants.plane, recursively: false) else { return nil }
             return playerNode
         }()
-       
         return player
     }
     
-    func stopPlayer() {
-        
-    }
+    func stopPlayer() {}
     
-    func playVideo(from button: SCNNode) {
-        
-    }
-    
-    
+    func playVideo(from button: SCNNode) {}
 }

@@ -11,7 +11,7 @@ import UIKit
 struct BaseConstants {
     static let screen = "screen"
     static let play = "play"
-    static let  playCircle = "play.circle"
+    static let scene = "art.scnassets/player.scn"
 }
 
 struct StringConstants {
@@ -23,10 +23,12 @@ struct StringConstants {
 struct AssetsConstants {
     static let lampaLogo = UIImage(named: "lampaLogo")
     static let yellowColor = UIColor(named: "BaseYellow")
+    static let yellowColor40 = UIColor(named: "BaseYellow40")
     static let whiteColor = UIColor(named: "BaseWhite")
 }
 
 struct VideoConstants {
     static let defaultVideoName = "Default"
     static let trackingImages = "TrackingImages"
+    static let plane = "plane"
 }

@@ -153,8 +153,7 @@ struct VideoNodeManager {
                 screenMaterial.name = BaseConstants.screen
                 screenMaterial.diffuse.contents = UIColor.white
                 planeMain.firstMaterial = screenMaterial
-
-                planeMain.firstMaterial?.diffuse.contents = addThumbnail()
+                planeMain.firstMaterial?.diffuse.contents = addBackground()
                 player.geometry = planeMain
                 player.name = videoName.rawValue
 
@@ -188,7 +187,6 @@ struct VideoNodeManager {
 
             let playNode = node.parent?.childNode(withName: BaseConstants.play, recursively: true)
             playNode?.isHidden = true
-
             let player = videoPlayers[videoName.rawValue]
             activePlayerName = videoName.rawValue
             player?.play()
@@ -207,7 +205,7 @@ struct VideoNodeManager {
                 if let material = screen.geometry?.material(named: BaseConstants.screen) {
                     let playNode = screen.parent?.childNode(withName: BaseConstants.play, recursively: true)
                     playNode?.isHidden = false
-                    material.diffuse.contents = addThumbnail()
+                    material.diffuse.contents = addBackground()
                 }
             }
         })
@@ -267,10 +265,9 @@ struct VideoNodeManager {
         return videoNode
     }
 
-    private mutating func addThumbnail() -> UIColor {
-        let thumb = UIImage(systemName: BaseConstants.playCircle)
-        thumb?.ciImage?.transformed(by: CGAffineTransform(scaleX: 2, y: 3))
-        return UIColor.white.withAlphaComponent(0.5)
+    private mutating func addBackground() -> UIColor {
+        let color = AssetsConstants.yellowColor40
+        return color ?? .clear
     }
 
     private mutating func resolutionForLocalVideo(url: URL) -> CGSize? {
