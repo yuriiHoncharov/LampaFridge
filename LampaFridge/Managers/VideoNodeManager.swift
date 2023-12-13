@@ -45,6 +45,8 @@ enum EventVideos: String {
     case thirtyFourthImage = "IMAGE34"
     case thirtyFifthImage = "IMAGE35"
     case thirtySixthImage = "IMAGE36"
+    case thirtySevenImage = "IMAGE37"
+    case thirtyEighthImage = "IMAGE38"
 
     var videoName: String {
         switch self {
@@ -121,6 +123,10 @@ enum EventVideos: String {
         case .thirtyFifthImage:
             return VideoConstants.defaultVideoName
         case .thirtySixthImage:
+            return VideoConstants.defaultVideoName
+        case .thirtySevenImage:
+            return VideoConstants.defaultVideoName
+        case .thirtyEighthImage:
             return VideoConstants.defaultVideoName
         }
     }

@@ -25,9 +25,10 @@
 		1F345FD42B1E28E20027A891 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F345FD32B1E28E20027A891 /* Colors.xcassets */; };
 		1F345FD92B1E29870027A891 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F345FD72B1E29870027A891 /* Localizable.strings */; };
 		1F5014842B28C9B40054F67E /* VIDEO29.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1F5014832B28C9B40054F67E /* VIDEO29.mp4 */; };
+		1F5014862B29E98B0054F67E /* VIDEO5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1F5014852B29E98B0054F67E /* VIDEO5.mp4 */; };
+		1F5014882B29E9920054F67E /* VIDEO30.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1F5014872B29E9920054F67E /* VIDEO30.mp4 */; };
 		1F64D3832B1F454200EC9B40 /* VIDEO16.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1F64D3822B1F453800EC9B40 /* VIDEO16.mp4 */; };
 		1F64D3842B1F454200EC9B40 /* VIDEO2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1F64D3802B1F453800EC9B40 /* VIDEO2.mp4 */; };
-		1F64D3852B1F454200EC9B40 /* VIDEO5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1F64D3812B1F453800EC9B40 /* VIDEO5.mp4 */; };
 		1F64D3862B1F454200EC9B40 /* VIDEO4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1F64D37F2B1F408900EC9B40 /* VIDEO4.mp4 */; };
 		1F64D38A2B1F4AC700EC9B40 /* VIDEO8.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1F64D3872B1F4AC700EC9B40 /* VIDEO8.mp4 */; };
 		1F64D38B2B1F4AC700EC9B40 /* VIDEO12.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1F64D3882B1F4AC700EC9B40 /* VIDEO12.mp4 */; };
@@ -74,9 +75,10 @@
 		1F345FD32B1E28E20027A891 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		1F345FD82B1E29870027A891 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		1F5014832B28C9B40054F67E /* VIDEO29.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VIDEO29.mp4; sourceTree = "<group>"; };
+		1F5014852B29E98B0054F67E /* VIDEO5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VIDEO5.mp4; sourceTree = "<group>"; };
+		1F5014872B29E9920054F67E /* VIDEO30.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VIDEO30.mp4; sourceTree = "<group>"; };
 		1F64D37F2B1F408900EC9B40 /* VIDEO4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VIDEO4.mp4; sourceTree = "<group>"; };
 		1F64D3802B1F453800EC9B40 /* VIDEO2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VIDEO2.mp4; sourceTree = "<group>"; };
-		1F64D3812B1F453800EC9B40 /* VIDEO5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VIDEO5.mp4; sourceTree = "<group>"; };
 		1F64D3822B1F453800EC9B40 /* VIDEO16.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VIDEO16.mp4; sourceTree = "<group>"; };
 		1F64D3872B1F4AC700EC9B40 /* VIDEO8.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VIDEO8.mp4; sourceTree = "<group>"; };
 		1F64D3882B1F4AC700EC9B40 /* VIDEO12.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VIDEO12.mp4; sourceTree = "<group>"; };
@@ -241,7 +243,7 @@
 				1F64D3802B1F453800EC9B40 /* VIDEO2.mp4 */,
 				1FB141C32B21F01B0018E2A4 /* VIDEO3.mp4 */,
 				1F64D37F2B1F408900EC9B40 /* VIDEO4.mp4 */,
-				1F64D3812B1F453800EC9B40 /* VIDEO5.mp4 */,
+				1F5014852B29E98B0054F67E /* VIDEO5.mp4 */,
 				1F64D3A12B21C1A500EC9B40 /* VIDEO6.mp4 */,
 				1F64D38E2B1F5E6700EC9B40 /* VIDEO7.mp4 */,
 				1F64D3872B1F4AC700EC9B40 /* VIDEO8.mp4 */,
@@ -265,6 +267,7 @@
 				1FB141BB2B21EDE00018E2A4 /* VIDEO27.mp4 */,
 				1F345FCA2B1E28CC0027A891 /* VIDEO28.mp4 */,
 				1F5014832B28C9B40054F67E /* VIDEO29.mp4 */,
+				1F5014872B29E9920054F67E /* VIDEO30.mp4 */,
 			);
 			path = Video;
 			sourceTree = "<group>";
@@ -364,6 +367,7 @@
 				1F64D39D2B1F73A300EC9B40 /* VIDEO14.mp4 in Resources */,
 				1F64D3922B1F5E6E00EC9B40 /* VIDEO11.mp4 in Resources */,
 				1FB141C42B21F01B0018E2A4 /* VIDEO3.mp4 in Resources */,
+				1F5014862B29E98B0054F67E /* VIDEO5.mp4 in Resources */,
 				1F345FCD2B1E28CC0027A891 /* VIDEO28.mp4 in Resources */,
 				1F64D3832B1F454200EC9B40 /* VIDEO16.mp4 in Resources */,
 				1F64D38A2B1F4AC700EC9B40 /* VIDEO8.mp4 in Resources */,
@@ -373,7 +377,6 @@
 				1FB141C02B21EDE00018E2A4 /* VIDEO26.mp4 in Resources */,
 				1FB141C62B21FF380018E2A4 /* VIDEO1.mp4 in Resources */,
 				1FB141C12B21EDE00018E2A4 /* VIDEO0.mp4 in Resources */,
-				1F64D3852B1F454200EC9B40 /* VIDEO5.mp4 in Resources */,
 				1F64D3A42B21C1A500EC9B40 /* VIDEO19.mp4 in Resources */,
 				1F345FD92B1E29870027A891 /* Localizable.strings in Resources */,
 				1F345FCE2B1E28CC0027A891 /* VIDEO24.mp4 in Resources */,
@@ -386,6 +389,7 @@
 				1F345FB72B1E28830027A891 /* RootViewController.storyboard in Resources */,
 				1F64D3902B1F5E6700EC9B40 /* VIDEO7.mp4 in Resources */,
 				1FB141B92B21E5DE0018E2A4 /* VIDEO22.mp4 in Resources */,
+				1F5014882B29E9920054F67E /* VIDEO30.mp4 in Resources */,
 				1FB141C22B21EDE00018E2A4 /* VIDEO25.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -555,7 +559,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = W73G89PCSD;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LampaFridge/Resources/Info.plist;
@@ -585,7 +589,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = W73G89PCSD;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LampaFridge/Resources/Info.plist;
