@@ -224,7 +224,7 @@ struct VideoNodeManager {
             return createVideoScene(videoURL: videoURL, video: video)
         } else {
             switch video {
-            case .thirtyThirdImage:
+            case .thirtySecondImage, .thirtyThirdImage:
                 return createFallbackScene(fallbackImage: fallbackImage, width: 6, height: 4)
             case .thirtySixthImage, .thirtySevenImage, .thirtyEighthImage:
                 return createFallbackScene(fallbackImage: fallbackImage, width: 8.8, height: 3)
