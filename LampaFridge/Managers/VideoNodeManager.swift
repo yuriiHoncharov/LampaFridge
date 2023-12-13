@@ -111,7 +111,7 @@ enum EventVideos: String {
         case .twentyNinthImage:
             return "VIDEO29.mp4"
         case .thirtiethImage:
-            return VideoConstants.defaultVideoName
+            return "VIDEO30.mp4"
         case .thirtyFirstImage:
             return VideoConstants.defaultVideoName
         case .thirtySecondImage:
@@ -220,17 +220,25 @@ struct VideoNodeManager {
     }
 
     private mutating func createVideoMaterial(for video: EventVideos, fallbackImage: UIImage? = nil) -> SKScene {
-        guard let videoURL = Bundle.main.url(forResource: video.videoName, withExtension: nil) else {
-            return createFallbackScene(fallbackImage: fallbackImage)
+        if let videoURL = Bundle.main.url(forResource: video.videoName, withExtension: nil) {
+            return createVideoScene(videoURL: videoURL, video: video)
+        } else {
+            switch video {
+            case .thirtyThirdImage:
+                return createFallbackScene(fallbackImage: fallbackImage, width: 6, height: 4)
+            case .thirtySixthImage, .thirtySevenImage, .thirtyEighthImage:
+                return createFallbackScene(fallbackImage: fallbackImage, width: 8.8, height: 3)
+            default:
+                return createFallbackScene(fallbackImage: fallbackImage, width: 7, height: 4)
+            }
         }
-        return createVideoScene(videoURL: videoURL, video: video)
     }
 
-    private func createFallbackScene(fallbackImage: UIImage?) -> SKScene {
+    private func createFallbackScene(fallbackImage: UIImage?, width: CGFloat, height: CGFloat) -> SKScene {
         let screenSize = UIScreen.main.bounds.size
 
         if let fallbackImage = fallbackImage {
-            let fallbackScene = SKScene(size: CGSize(width: screenSize.width * 4.5, height: screenSize.height * 4))
+            let fallbackScene = SKScene(size: CGSize(width: screenSize.width * width, height: screenSize.height * height))
             fallbackScene.backgroundColor = .baseWhite
             let imageNode = createImageNode(with: fallbackImage, scene: fallbackScene)
 
